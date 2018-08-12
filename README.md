@@ -8,7 +8,7 @@ webflux(reactive) + foundationdb(suit for reactive)
 
 ## change address name
 ```
-$ curl -v -X POST  http://localhost:8080/set -d ${addressName}
+curl -v -X POST  http://localhost:8080/set -d ${addressName}
 
 ```
 ex
